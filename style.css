@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    margin:  0px;
+    padding: 0px;
+
+}
+
+body  {
+
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#main{
+    width: 40%;
+    min-width: 380px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    padding: 50px 30px;
+}
+/* heading box */
+h2{
+    color: blanchedalmond;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+}
+/* for all */
+#input-box ,
+ h2 , 
+.block{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.267);    
+}
+
+/* imput box */
+#input-box{
+    padding: 40px 25px;
+}
+
+input , button{
+   height: 50px;
+   background-color: rgb(255, 255, 255);
+   font-weight: 500;
+   border-radius: 5px;
+   cursor: pointer;
+}
+input{
+    width: 60%;
+    padding: 0 10px ;
+    font-size: 14px;
+}
+button{
+    width: 30%;
+    float: right;
+    padding: 0 10px;
+    
+}
+
+/* result box */
+
+#result-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.block{
+    background: black;
+    width: 30%;
+    height:75px;
+    color: white;
+    font-weight: 500;
+    
+}
